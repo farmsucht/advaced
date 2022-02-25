@@ -117,6 +117,9 @@ class Wallet:
         :return: Amount of coins in the wallet.
         :rtype: float
         """
+
+        # TODO -> Return wallets coin amount by using util.database.Database
+
         pass
 
 
@@ -130,6 +133,9 @@ class Wallet:
         :return: Amount of staked coins of the wallet.
         :rtype: float
         """
+
+        # TODO -> Return stake by using util.database.Database
+
         pass
 
 
@@ -144,4 +150,7 @@ class Wallet:
                  getting chosen to verify a block).
         :rtype: float
         """
+
+        # TODO -> Return wallet-score by using util.database.Database
+
         pass
